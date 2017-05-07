@@ -1,6 +1,6 @@
 from ExcelToTxt import ExcelToTxt
 import os
-
+import glob
 def rwfun(filename):
     filename = filename.replace('\\','/')
     print(filename)

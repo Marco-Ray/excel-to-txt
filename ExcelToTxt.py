@@ -1,6 +1,5 @@
 import xdrlib ,sys
 import xlrd
-# import os
 class ExcelToTxt:
     def __init__(self, path):
         self._path = path
@@ -8,9 +7,6 @@ class ExcelToTxt:
         self._sheet_names = None
         
 
-        
-        
-        
     def openExcelFile(self):
         try:
             self._data = xlrd.open_workbook(self._path)
